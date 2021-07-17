@@ -1,7 +1,7 @@
 #include <stdio.h>
 void reverse() {
     int n, rev = 0, remainder;
-    printf("Enter an integer: ");
+    printf("Enter the integer: ");
     scanf("%d", &n);
     while (n != 0) {
         remainder = n % 10;
